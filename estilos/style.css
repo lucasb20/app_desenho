@@ -6,6 +6,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color: peachpuff;
+}
+
 header h1{
     text-align: center;
     margin: 10px auto;
@@ -15,9 +19,42 @@ header h1{
     border: 1px solid black;
     display: block;
     margin: auto;
-    width: 1000px;
-    height: 500px;
     background-color: lightblue;
+    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.466);
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.cores{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: 1px solid black;
+    align-self: center;
+    margin: 0px 5px;
+}
+
+.but{
+    padding: 5px;
+    height: 30px;
+    align-self: center;
+    cursor: pointer;
+    margin: 0px 5px;
+    border-radius: 20%;
+}
+
+.but:hover{
+    background-color: lightgray;
+}
+
+#cor, #escala{
+    align-self: center;
+    margin: 0px 5px;
 }
 
 footer p{
