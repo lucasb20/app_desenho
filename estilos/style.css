@@ -1,0 +1,27 @@
+@charset "UTF8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header h1{
+    text-align: center;
+    margin: 10px auto;
+}
+
+#canvas{
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    background-color: lightblue;
+}
+
+footer p{
+    margin: 10px;
+    text-align: center;
+    font-size: 1.3em;
+}
